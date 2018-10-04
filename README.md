@@ -33,5 +33,3 @@ right now.
 * Hello, world!
 * Using `cargo`
 
-### Ch 2:
-
