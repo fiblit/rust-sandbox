@@ -18,10 +18,10 @@ right now.
 ### Introduction
 
 * Ideal for:
-    * Teams
-    * Students
-    * Companies
-    * Open Source Developers
+  * Teams
+  * Students
+  * Companies
+  * Open Source Developers
 * Safe code = Fast code
 * Later chapters build on concepts in earlier chapters,
 * we’ll provide many examples of code that doesn’t compile along with
@@ -33,3 +33,11 @@ right now.
 * Hello, world!
 * Using `cargo`
 
+### Ch 2: Programming a Guessing Game
+
+* Setting up a New Project
+* Processing a Guess
+  * Storing Values with Variables
+  * `Result` = optional failure
+  * Printing with `println!`
+* Generating a secret number
