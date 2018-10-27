@@ -84,3 +84,26 @@ The .lock file tracks all downloaded packages.
 `gen_range(a, b)` is uniformly random over [a, b)
 
 `cargo doc --open` will open all dependency's documentation
+
+## Comparing the Guess to the Secret
+
+`cmp` can be compared on anything.
+
+match statements match patterns in arms.
+
+Rust is strongly statically typed.
+
+Annotate types when it can't be inferred `let var: type`
+
+## Allowing Multiple Guesses with Looping
+
+`loop` = infinite loop
+
+### Quitting after a Guess
+
+arms can have braces `=> {}`. This lets them have multiple statements
+
+### Handling Invalid Input
+
+You can match `Result` to be more intelligent. Using this instead of expect is
+like the difference between assert and error handling.

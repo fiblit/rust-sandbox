@@ -45,3 +45,5 @@ right now.
   * Cargo.lock
   * Generating a random number
 * Comparing the Guess to the Secret Number
+* Looping
+* Proper Error Handling w/ Match
