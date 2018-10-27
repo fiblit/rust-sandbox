@@ -41,3 +41,7 @@ right now.
   * `Result` = optional failure
   * Printing with `println!`
 * Generating a secret number
+  * Using a Crate
+  * Cargo.lock
+  * Generating a random number
+* Comparing the Guess to the Secret Number

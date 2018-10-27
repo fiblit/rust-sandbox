@@ -55,3 +55,32 @@ Curly brackets `{}` are like % formatters in printf.
 
 
 ## Generating a Secret number
+
+Rust doesn't have randomness in std, but it does have a random crate (library)
+
+`rand` is a *library* crate. `guessing_game` is a *binary* crate.
+
+### Using a Crate to Get More Funcionality
+
+Semantic versioning is used for crates, and 0.3.14=^0.3.14
+
+Cargo checks `[dependencies]` for any uninstalled Crates. It will download and
+install them for you, including secondary dependencies.
+
+`cargo build` works like make where it will only rebuild the changed parts.
+
+### Cargo.lock
+
+The .lock file tracks all downloaded packages.
+
+`cargo update` will only update the minor version v0.3.14 -> 0.3.15
+
+### Genreating a Random Number
+
+`extern crate <crate>` use external dependency. (adds a `use::<crate>`)
+
+`thread_rng()` is a thread_local RNG seeded by the OS.
+
+`gen_range(a, b)` is uniformly random over [a, b)
+
+`cargo doc --open` will open all dependency's documentation
