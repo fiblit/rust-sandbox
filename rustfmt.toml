@@ -1,5 +1,5 @@
 edition = "2018"
-# use_small_heuristics = "Max"
+use_small_heuristics = "Max"
 fn_single_line = true
 imports_layout = "HorizontalVertical"
 merge_imports = true
@@ -7,7 +7,6 @@ max_width = 80
 newline_style = "Unix"
 normalize_doc_attributes = true
 normalize_comments = true
-# tab_spaces = 2
 use_field_init_shorthand = true
 use_try_shorthand = true
 wrap_comments = true
