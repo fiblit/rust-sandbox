@@ -105,3 +105,8 @@ final expression's type. Otherwise, return values seem to work as expected.
 
 You cannot make the final expression a statement if the function is declared
 with a return type.
+
+## Comments
+
+The only kind of comment appears to be the C++ style `//` comment. No debugging
+block comments? It's preferrable to place comments above lines.
