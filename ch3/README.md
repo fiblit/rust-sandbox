@@ -77,3 +77,31 @@ Array type annotations are weird: `[content; length]`
 
 Arrays can be indexed as expected, in debug though out of bounds errors are
 detected at *runtime*.
+
+## Functions
+
+snake_case is the conventional style for function names.
+
+Rust does not care where functions are defined.
+
+As usual, functions can have parameters, however, they *must* have type
+annotations.
+
+### Statements vs Expressions
+
+Functions contain a bunch of statements, maybe with an ending expression. (Rust
+is expression-based, or whatever that means.)
+
+Statements do not return a value, while expressions do. Therefore, you cannot
+assign a statement to a let *statement*.
+
+Functions, macros, and blocks are all expressions. In fact, the final
+item of the block can be an expression by not having a semicolon.
+
+### Return Values
+
+You specifiy the type after a function with `-> Type` which is the same as the
+final expression's type. Otherwise, return values seem to work as expected.
+
+You cannot make the final expression a statement if the function is declared
+with a return type.

@@ -59,3 +59,7 @@ right now.
 * Data Types
   * Scalars (ints, floats, bools, chars)
   * Compounds (tuples, arrays)
+* Functions
+  * Parameters
+  * Statements vs Expressions
+  * Return Values
