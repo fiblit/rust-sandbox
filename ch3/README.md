@@ -38,3 +38,42 @@ New variables can be *declared* (using `let`) with the same name as prior ones.
 Shadowing is like a transformation, however it is still not assignable (as `mut`
 would allow). For example, the type can be changed. `mut` could not transform
 across types like this because it only allows ("strongly") safe assignments.
+
+## Data Types
+
+Every value has a type. Furthermore, *static* typing implies that the type of
+all variables is inferred at compile time. If multiple types are possible, you
+must annotate, such as in `.parse()`.
+
+### Scalars (ints, floats, bools, chars)
+
+Singular values, such as integers, floats, bools, and characters.
+
+Integers may be (u)nsigned or s(i)gned + 8, 16, 32, 64, 128, or arch size bits.
+
+You may annotate any literal with the integer types as well. Other bases can
+use typical prefixes: hex, `0x`; octal, `0o`; binary, `0b`; byte `b'A'`.
+
+In debug mode overflows cause panics. std contains an explicitly wrapping type.
+
+Floats only have `f32` and `f64`. The default is `f64`.
+
+You can use all of the typical arithmetic operations on similar types: `+`, `-`,
+`*`, `/`, `%`.
+
+bools are just `true` and `false`.
+
+chars are specified with `'`. A single Unicode value.
+
+### Compounds (tuples, arrays)
+
+Tuples group a variety of types into one, they do not change in size. The type
+of tuples can be inferred, as well as inferred from patterened destructuring! 
+
+Arrays are for homogenous, fixed size stack allocation. The vector type can
+support the dynamic sizing. Prefer vector if you're unsure as to which.
+
+Array type annotations are weird: `[content; length]`
+
+Arrays can be indexed as expected, in debug though out of bounds errors are
+detected at *runtime*.

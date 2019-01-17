@@ -56,3 +56,6 @@ right now.
 * Variables and Mutability
   * Variables vs. Constants
   * Shadows
+* Data Types
+  * Scalars (ints, floats, bools, chars)
+  * Compounds (tuples, arrays)
