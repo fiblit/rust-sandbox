@@ -47,3 +47,12 @@ right now.
 * Comparing the Guess to the Secret Number
 * Looping
 * Proper Error Handling w/ Match
+
+### Ch 3: Common Programming Concepts
+
+* Introduction
+  * Keywords (Appendix A)
+  * Identifiers (Raw, too)
+* Variables and Mutability
+  * Variables vs. Constants
+  * Shadows
