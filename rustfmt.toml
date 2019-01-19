@@ -1,4 +1,5 @@
 edition = "2018"
+unstable_features = true
 
 # Provides consistent and reliable application
 use_small_heuristics = "Max"
