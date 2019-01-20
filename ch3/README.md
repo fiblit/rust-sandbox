@@ -110,3 +110,13 @@ with a return type.
 
 The only kind of comment appears to be the C++ style `//` comment. No debugging
 block comments? It's preferrable to place comments above lines.
+
+## Control flow expressions
+
+Fairly standard `if` expressions. No need for parentheses! However, the
+condition is strongly typed as `bool`, so no number shenanigans.
+
+Use a `match` expression instead of many else `if` expressions.
+
+Because `if` is an *expression* it can be the right-hand side of a let
+statement. However, they must be the same type.
