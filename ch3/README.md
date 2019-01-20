@@ -120,3 +120,15 @@ Use a `match` expression instead of many else `if` expressions.
 
 Because `if` is an *expression* it can be the right-hand side of a let
 statement. However, they must be the same type.
+
+## Loops
+
+`loop` is infinite. `break` can be used to return a value from `loop` to a `let`
+statement.
+
+assert_eq, asserts equality.
+
+`while` calls `break` when the loop is no longer true.
+
+A `for` loop loops through a collection as a for-each loop (for i in ...). For
+an array, use `.iter()`. You can also iterate over ranges.

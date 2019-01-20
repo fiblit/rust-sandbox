@@ -65,3 +65,4 @@ right now.
   * Return Values
 * Comments
 * Control Flow *expressions*
+* Loops
