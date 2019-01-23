@@ -66,3 +66,24 @@ right now.
 * Comments
 * Control Flow *expressions*
 * Loops
+
+### Ch 4: Understanding Ownership
+
+* What is it?
+  * The Stack vs. The Heap
+  * Rules
+    * Scope
+    * `String` type
+    * Memory / Allocation
+      * Move
+      * Clone
+      * Copy
+    * Ownership with functions
+      * Return Values
+* References and Borrowing
+  * Mutable References
+  * Dangling References
+* Slices
+  * String literals are slices
+  * String slice parameters
+  * Other Slice types
